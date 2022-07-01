@@ -1,0 +1,9 @@
+{
+  "name": "wisdom",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "REACH_CONNECTOR_MODE=ALGO ./reach run ./src",
+    "start:buyer": "npm start -- buyer",
+    "start:seller": "npm start -- seller"
+  }
+}
